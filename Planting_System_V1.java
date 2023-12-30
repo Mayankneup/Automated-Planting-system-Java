@@ -1,16 +1,13 @@
-package MINOR;
+package Watering_System_V1;
 
 import edu.princeton.cs.introcs.StdDraw;
 import org.firmata4j.*;
 import org.firmata4j.firmata.FirmataDevice;
-import org.firmata4j.ssd1306.MonochromeCanvas;
-import org.firmata4j.ssd1306.SSD1306;
+import org.firmata4j.ssd1306.*;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 
-import static MINOR.PORT.*;
+import static Watering_System_V1.PORT.*;
 
 public class Mayank_Minor {
     public static class BUTTON_LISTERNER implements IODeviceEventListener {
@@ -207,7 +204,7 @@ public class Mayank_Minor {
                 }
                 theOledObject.clear();
             }
-            
+
         }
 
     }
